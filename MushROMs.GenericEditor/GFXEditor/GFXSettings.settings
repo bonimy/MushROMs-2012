@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MushROMs.GenericEditor.GFXEditor" GeneratedClassName="GFXSettings">
+  <Profiles />
+  <Settings>
+    <Setting Name="LstFiles" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="LastOpenFilterIndex" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="LastSaveFilterIndex" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="LastOpenPaths" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="LastSavePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="DefaultViewWidth" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">16</Value>
+    </Setting>
+    <Setting Name="DefaultViewHeight" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">8</Value>
+    </Setting>
+    <Setting Name="DefaultBPPFormat" Type="MushROMs.LunarCompress.GraphicsTypes" Scope="User">
+      <Value Profile="(Default)">SNES_4BPP</Value>
+    </Setting>
+    <Setting Name="DefaultCompressFormat" Type="MushROMs.LunarCompress.CompressionFormats" Scope="User">
+      <Value Profile="(Default)">LZ2</Value>
+    </Setting>
+    <Setting Name="DefaultGFXZoom" Type="MushROMs.GenericEditor.GFXEditor.GFXZoomScales" Scope="User">
+      <Value Profile="(Default)">Zoom2x</Value>
+    </Setting>
+    <Setting Name="DefaultDashLength1" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">4</Value>
+    </Setting>
+    <Setting Name="DefaultDashLength2" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">4</Value>
+    </Setting>
+    <Setting Name="DefaultDashColor1" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Black</Value>
+    </Setting>
+    <Setting Name="DefaultDashColor2" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

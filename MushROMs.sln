@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MushROMs.GenericEditor", "MushROMs.GenericEditor\MushROMs.GenericEditor.csproj", "{1CB39E4A-7740-4292-A05F-716A847F835C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MushROMs", "MushROMs\MushROMs.csproj", "{9827DBE0-0A53-402D-92DB-D88BE552EA2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MushROMs.Controls", "MushROMs.Controls\MushROMs.Controls.csproj", "{419D568F-BBB6-4B9E-AB8E-DC451622D65F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MushROMs.LunarCompress", "MushROMs.LunarCompress\MushROMs.LunarCompress.csproj", "{A2B41268-3CCD-4CB5-8840-ABBDCA25CC5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MushROMs.SNESLibrary", "MushROMs.SNESLibrary\MushROMs.SNESLibrary.csproj", "{CB2A251F-2A12-44AD-952A-806BC8A42DDA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Unmanaged", "Unmanaged\Unmanaged.vcxproj", "{FC86BFA8-6789-423A-BB25-9C0FEF4B089B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MushROMs.Unmanaged", "MushROMs.Unmanaged\MushROMs.Unmanaged.csproj", "{DFE4F5A7-E1CB-4D27-83F6-980466F0B496}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CB39E4A-7740-4292-A05F-716A847F835C}.Debug|x86.ActiveCfg = Debug|x86
+		{1CB39E4A-7740-4292-A05F-716A847F835C}.Debug|x86.Build.0 = Debug|x86
+		{1CB39E4A-7740-4292-A05F-716A847F835C}.Release|x86.ActiveCfg = Release|x86
+		{9827DBE0-0A53-402D-92DB-D88BE552EA2E}.Debug|x86.ActiveCfg = Debug|x86
+		{9827DBE0-0A53-402D-92DB-D88BE552EA2E}.Debug|x86.Build.0 = Debug|x86
+		{9827DBE0-0A53-402D-92DB-D88BE552EA2E}.Release|x86.ActiveCfg = Release|x86
+		{9827DBE0-0A53-402D-92DB-D88BE552EA2E}.Release|x86.Build.0 = Release|x86
+		{419D568F-BBB6-4B9E-AB8E-DC451622D65F}.Debug|x86.ActiveCfg = Debug|x86
+		{419D568F-BBB6-4B9E-AB8E-DC451622D65F}.Debug|x86.Build.0 = Debug|x86
+		{419D568F-BBB6-4B9E-AB8E-DC451622D65F}.Release|x86.ActiveCfg = Release|x86
+		{A2B41268-3CCD-4CB5-8840-ABBDCA25CC5E}.Debug|x86.ActiveCfg = Debug|x86
+		{A2B41268-3CCD-4CB5-8840-ABBDCA25CC5E}.Debug|x86.Build.0 = Debug|x86
+		{A2B41268-3CCD-4CB5-8840-ABBDCA25CC5E}.Release|x86.ActiveCfg = Release|x86
+		{CB2A251F-2A12-44AD-952A-806BC8A42DDA}.Debug|x86.ActiveCfg = Debug|x86
+		{CB2A251F-2A12-44AD-952A-806BC8A42DDA}.Debug|x86.Build.0 = Debug|x86
+		{CB2A251F-2A12-44AD-952A-806BC8A42DDA}.Release|x86.ActiveCfg = Release|x86
+		{FC86BFA8-6789-423A-BB25-9C0FEF4B089B}.Debug|x86.ActiveCfg = Debug|Win32
+		{FC86BFA8-6789-423A-BB25-9C0FEF4B089B}.Debug|x86.Build.0 = Debug|Win32
+		{FC86BFA8-6789-423A-BB25-9C0FEF4B089B}.Release|x86.ActiveCfg = Release|Win32
+		{DFE4F5A7-E1CB-4D27-83F6-980466F0B496}.Debug|x86.ActiveCfg = Debug|x86
+		{DFE4F5A7-E1CB-4D27-83F6-980466F0B496}.Debug|x86.Build.0 = Debug|x86
+		{DFE4F5A7-E1CB-4D27-83F6-980466F0B496}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

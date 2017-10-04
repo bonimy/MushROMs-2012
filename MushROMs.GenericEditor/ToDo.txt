@@ -1,0 +1,62 @@
+﻿Palette Editor
+--------------
+@Vertical gradients
+@Fix colorizing bug (defaults to extra yellow)
+@Copy and paste selections
+@Fix Copy/Paste along borders and resized areas
+@Keyboard scrolling support
+@Fix scrolling when columns size changes
+@Relative and absolute coordinates (for scrolling purposes)
+@SNES palette viewer (OH MAN THIS ONE FEELS GOOD TO GET DONE!)
+@Undo/Redo
+@Add an asterisk to files that were altered
+@Options menu and save settings
+@Activate current editor if opening an already opened file
+@Make colorizing dialog more user-friendly
+@Save all option
+@Prompt save on exit
+@Status text for stuff
+@Weighted grayscale dialog
+@Expanded colors in floating point format to prevent rounding errors
+@Recent file list
+@Dialog for multiple unsaved files.
+@Find and Replace dialog
+@Goto dialog
+@Create new palette from Copy data.
+@Fix end of column data editing not working.
+@Fix "Save as" not updating the file path of the editor.
+@Fix undo/redo being one byte off in snes mode.
+@Fix selection range for odd byte reading in snes mode.
+@Fix selection apply error noticed by Ersanio.
+@Fix first byte of odd palette not changing when a full column was selected.
+@Implement Cut and Delete buttons (just blacks out region).
+@Add command line arguments
+@"About" dialog describing the program, author, and version number.
+@Add Reset button for colorize and grayscale dialog.
+@Fix last byte error when loading from SNES roms.
+*Fix the million things wrong with the find and replace dialog.
+*Color separator dialog.
+*Allow selecting beyond max view size
+@Improve restrictions for loading files.
+@Scroll bar seems to be off when resizing to make it appear from bottom.
+@Improve options for saving to savestates.
+?Expand custom cursor settings
+?Give ColorizeDialog editable controls in program structure (what?)
+?Load Palette dump files from debugger (useful for Find dialog?)
+?Gradient levels dialog
+?Add color lines for gradient dialog (like photoshop)
+?More options for the settings dialog (like what?)
+?Any error catching
+
+GFX Editor
+----------
+!Create new file dialog
+!Work on open/save file options
+!Create draw functions for GFX and tile
+*Tile map window for full GFX viewing/editing
+*Import FuSoYa's sniff code for finding compressed GFX
+*universal .lcz file format (first byte or two describes compression format)
+*Give each gfx editor its own pixel editor
+*Find a good way to work with palette selections
+?Use raw byte data to better switch between pixel formats
+*Appropriate window sizing for zoom options of both gfx and pixel editor.

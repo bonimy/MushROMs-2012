@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{419D568F-BBB6-4B9E-AB8E-DC451622D65F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MushROMs.Controls</RootNamespace>
+    <AssemblyName>MushROMs.Controls</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>bin\x86\Release\MushROMs.Controls.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'xkas %28Debug%29|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\xkas %28Debug%29\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Generic %28Debug%29|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Generic %28Debug%29\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ColorPicker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlDesigners.cs" />
+    <Compile Include="EditorControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditorHScrollBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EditorVScrollBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ErrorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ErrorForm.Designer.cs">
+      <DependentUpon>ErrorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventTimer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EventWatch.cs" />
+    <Compile Include="FolderBrowserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FolderBrowserControl.Designer.cs">
+      <DependentUpon>FolderBrowserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenulessForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NumericFunctions.cs" />
+    <Compile Include="NumericTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SaveFileControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SaveFileControl.Designer.cs">
+      <DependentUpon>SaveFileControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DrawControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExpandedColor.cs" />
+    <Compile Include="OpenFileControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OpenFileControl.Designer.cs">
+      <DependentUpon>OpenFileControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TextTrackBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TextTrackBar.Designer.cs">
+      <DependentUpon>TextTrackBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UndoRedo.cs" />
+    <Compile Include="UnsavedDialog.cs" />
+    <Compile Include="UnsavedForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnsavedForm.Designer.cs">
+      <DependentUpon>UnsavedForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ErrorForm.resx">
+      <DependentUpon>ErrorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FolderBrowserControl.resx">
+      <DependentUpon>FolderBrowserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaveFileControl.resx">
+      <DependentUpon>SaveFileControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenFileControl.resx">
+      <DependentUpon>OpenFileControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TextTrackBar.resx">
+      <DependentUpon>TextTrackBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnsavedForm.resx">
+      <DependentUpon>UnsavedForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MushROMs.Unmanaged\MushROMs.Unmanaged.csproj">
+      <Project>{DFE4F5A7-E1CB-4D27-83F6-980466F0B496}</Project>
+      <Name>MushROMs.Unmanaged</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

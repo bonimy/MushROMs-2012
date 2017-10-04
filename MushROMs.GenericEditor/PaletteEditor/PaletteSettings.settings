@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MushROMs.GenericEditor.PaletteEditor" GeneratedClassName="PaletteSettings">
+  <Profiles />
+  <Settings>
+    <Setting Name="LastFiles" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="LastOpenFilterIndex" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="LastSaveFilterIndex" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="LastOpenPaths" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="LastSavePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="DefaultViewWidth" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">16</Value>
+    </Setting>
+    <Setting Name="DefaultViewHeight" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">16</Value>
+    </Setting>
+    <Setting Name="FallbackColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">248, 0, 248</Value>
+    </Setting>
+    <Setting Name="DefaultFormat" Type="MushROMs.GenericEditor.PaletteEditor.PaletteDataFormats" Scope="User">
+      <Value Profile="(Default)">TPL</Value>
+    </Setting>
+    <Setting Name="DefaultZoom" Type="MushROMs.GenericEditor.PaletteEditor.PaletteZoomScales" Scope="User">
+      <Value Profile="(Default)">Zoom32x</Value>
+    </Setting>
+    <Setting Name="DefaultBGSize" Type="MushROMs.GenericEditor.PaletteEditor.PaletteBGSizes" Scope="User">
+      <Value Profile="(Default)">Size1x</Value>
+    </Setting>
+    <Setting Name="DefaultBGColor1" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="DefaultBGColor2" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Silver</Value>
+    </Setting>
+    <Setting Name="DefaultDashLength1" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">4</Value>
+    </Setting>
+    <Setting Name="DefaultDashColor1" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Black</Value>
+    </Setting>
+    <Setting Name="DefaultDashColor2" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="FirstTime" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="DefaultDashLength2" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">4</Value>
+    </Setting>
+    <Setting Name="MaxRecentFiles" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="DefaultCursor" Type="System.Windows.Forms.Cursor" Scope="User">
+      <Value Profile="(Default)">Cross</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

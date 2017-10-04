@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1CB39E4A-7740-4292-A05F-716A847F835C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MushROMs.GenericEditor</RootNamespace>
+    <AssemblyName>Generic Editor</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'xkas %28Debug%29|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\xkas %28Debug%29\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Generic %28Debug%29|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Generic %28Debug%29\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GFXEditor\CreateGFXForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GFXEditor\CreateGFXForm.Designer.cs">
+      <DependentUpon>CreateGFXForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GFXEditor\GFXForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GFXEditor\GFXForm.Designer.cs">
+      <DependentUpon>GFXForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GFXEditor\GFXParent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GFXEditor\GFXParent.Designer.cs">
+      <DependentUpon>GFXParent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GFXEditor\GFXSettings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>GFXSettings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="PaletteEditor\AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaletteEditor\AboutForm.Designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaletteEditor\ColorizeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaletteEditor\ColorizeForm.Designer.cs">
+      <DependentUpon>ColorizeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaletteEditor\CreatePaletteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaletteEditor\CreatePaletteForm.Designer.cs">
+      <DependentUpon>CreatePaletteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaletteEditor\GotoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaletteEditor\GotoForm.Designer.cs">
+      <DependentUpon>GotoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaletteEditor\GotoSettings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>GotoSettings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="PaletteEditor\GrayscaleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaletteEditor\GrayscaleForm.Designer.cs">
+      <DependentUpon>GrayscaleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaletteEditor\PaletteEditorSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaletteEditor\PaletteEditorSettings.Designer.cs">
+      <DependentUpon>PaletteEditorSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GFXStatusForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GFXStatusForm.Designer.cs">
+      <DependentUpon>GFXStatusForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaletteEditor\PaletteForm.Designer.cs">
+      <DependentUpon>PaletteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaletteEditor\PaletteSettings.cs" />
+    <Compile Include="PaletteEditor\PaletteSettings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>PaletteSettings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="PaletteEditor\FindReplaceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaletteEditor\FindReplaceForm.Designer.cs">
+      <DependentUpon>FindReplaceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaletteEditor\SNESColorPicker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="SNESSubEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GFXEditor_old.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GFXEditor_old.Designer.cs">
+      <DependentUpon>GFXEditor_old.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GFXParent_old.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GFXParent_old.Designer.cs">
+      <DependentUpon>GFXParent_old.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaletteEditor\PaletteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaletteEditor\PaletteParent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaletteEditor\PaletteParent.designer.cs">
+      <DependentUpon>PaletteParent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SNESEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SNESEditor.Designer.cs">
+      <DependentUpon>SNESEditor.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="GFXEditor\CreateGFXForm.resx">
+      <DependentUpon>CreateGFXForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GFXEditor\GFXForm.resx">
+      <DependentUpon>GFXForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GFXEditor\GFXParent.resx">
+      <DependentUpon>GFXParent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaletteEditor\AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaletteEditor\ColorizeForm.resx">
+      <DependentUpon>ColorizeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaletteEditor\CreatePaletteForm.resx">
+      <DependentUpon>CreatePaletteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaletteEditor\GotoForm.resx">
+      <DependentUpon>GotoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaletteEditor\GrayscaleForm.resx">
+      <DependentUpon>GrayscaleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaletteEditor\PaletteEditorSettings.resx">
+      <DependentUpon>PaletteEditorSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GFXEditor_old.resx">
+      <DependentUpon>GFXEditor_old.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GFXParent_old.resx">
+      <DependentUpon>GFXParent_old.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GFXStatusForm.resx">
+      <DependentUpon>GFXStatusForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaletteEditor\PaletteForm.resx">
+      <DependentUpon>PaletteForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaletteEditor\PaletteParent.resx">
+      <DependentUpon>PaletteParent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaletteEditor\FindReplaceForm.resx">
+      <DependentUpon>FindReplaceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SNESEditor.resx">
+      <DependentUpon>SNESEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="GFXEditor\GFXSettings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>GFXSettings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PaletteEditor\GotoSettings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>GotoSettings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PaletteEditor\PaletteSettings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>PaletteSettings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MushROMs.Controls\MushROMs.Controls.csproj">
+      <Project>{419D568F-BBB6-4B9E-AB8E-DC451622D65F}</Project>
+      <Name>MushROMs.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MushROMs.LunarCompress\MushROMs.LunarCompress.csproj">
+      <Project>{A2B41268-3CCD-4CB5-8840-ABBDCA25CC5E}</Project>
+      <Name>MushROMs.LunarCompress</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MushROMs.SNESLibrary\MushROMs.SNESLibrary.csproj">
+      <Project>{CB2A251F-2A12-44AD-952A-806BC8A42DDA}</Project>
+      <Name>MushROMs.SNESLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MushROMs.Unmanaged\MushROMs.Unmanaged.csproj">
+      <Project>{DFE4F5A7-E1CB-4D27-83F6-980466F0B496}</Project>
+      <Name>MushROMs.Unmanaged</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Default.bin" />
+    <None Include="Resources\saveAll.png" />
+    <None Include="Resources\bg.png" />
+    <Content Include="ToDo.txt" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
